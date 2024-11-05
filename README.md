@@ -7,6 +7,4 @@
 5. Setelah login berhasil dan token disimpan, aplikasi dapat mengakses halaman-halaman yang membutuhkan autentikasi. Setiap kali aplikasi perlu mengakses data yang membutuhkan autentikasi (misalnya data profil pengguna), aplikasi akan mengirim token tersebut bersama dengan permintaan HTTP sebagai bukti bahwa pengguna telah login. Kemudian server akan memverifikasi token tersebut apakah token yang diterima valid atau tidak. Jika token valid, server akan mengizinkan akses ke data atau halaman tersebut. Jika token tidak valid, server akan mengembalikan status 401 Unauthorized, dan aplikasi bisa meminta pengguna untuk login kembali.
 6. Proses logout biasanya hanya menghapus token dari penyimpanan lokal. Dengan begitu, pengguna tidak bisa lagi mengakses halaman yang terproteksi sampai mereka login kembali.
 ## Screenshots
-
-![App Screenshot](https://github.com/balfirr/pert7/blob/78747e1fa6240c8723c8c19e22a09959ff88d4a5/appcb/Screenshot%202024-10-30%20213253.jpg)
-
+![App Screenshot](https://github.com/balfirr/pert_8/blob/7174a8dc29bdbcfcb8fc7a600df77a09847dd0ce/Screenshot%202024-11-05%20112441.png)
